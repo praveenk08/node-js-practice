@@ -14,7 +14,6 @@ mongoose.connect(db)
 const coursesRouter = require("./routes/courses");
 const usersRouter = require("./routes/users");
 
-
 app.use(express.json());
 
 app.listen(PORT, () =>{

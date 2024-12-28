@@ -4,7 +4,6 @@ const jwt = require("jsonwebtoken");
 
 const Course = require("../models/courses");
 
-
 const veryfyToken = (req, res, next) => {
   // const token = req.headers.authorization;
   const token = req.headers["authorization"];

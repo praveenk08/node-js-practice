@@ -5,7 +5,6 @@ const jwt = require("jsonwebtoken");
 
 const User = require("../models/user");
 
-
 router.get("/api/v1/users", async (req, res) => {
   const users = await User.find();
   res.send(users);
